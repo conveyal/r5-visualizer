@@ -1,0 +1,34 @@
+{
+  "name": "r5-visualizer",
+  "version": "0.0.1",
+  "description": "visualize r5 internal search processes",
+  "main": "lib/index.js",
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mastarm serve lib/index.js --proxy http://localhost:4141/api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conveyal/r5-visualizer.git"
+  },
+  "author": "Matthew Wigginton Conway <mconway@conveyal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conveyal/r5-visualizer/issues"
+  },
+  "homepage": "https://github.com/conveyal/r5-visualizer#readme",
+  "devDependencies": {
+    "mastarm": "^0.2.1"
+  },
+  "dependencies": {
+    "leaflet": "^0.7.7",
+    "mastarm": "^0.2.1",
+    "react-dock": "^0.2.3",
+    "react-leaflet": "^0.11.5",
+    "redux-actions": "^0.10.0",
+    "redux-logger": "^2.6.1"
+  }
+}
